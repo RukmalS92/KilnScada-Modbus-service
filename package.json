@@ -1,0 +1,25 @@
+{
+  "name": "modbus-service",
+  "version": "1.0.0",
+  "description": "modbus read write communication level",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rukmal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "modbus-rtu": "^0.2.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "serialport": "^9.0.7",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
